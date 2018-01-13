@@ -35,4 +35,6 @@ bundle exec jekyll serve
 
 ### Note about service worker
 
-The service worker code is located at ./hustle24-sw.js and the code to register the service worker is in _layouts/layout.html.
+The service worker code is located in the following files:
+ * ./hustle24-sw.js <~~~ service worker
+ * _layouts/layout.html <~~~ register service worker inline JS
