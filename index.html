@@ -1,0 +1,22 @@
+---
+layout: layout
+sitemap: false
+---
+
+<section class="content">
+  <ul class="list pa0">
+    {% for post in site.posts %}
+      {% unless post.draft %}
+	  {% assign currentdate = post.date | date: "%Y" %}
+	    {% if currentdate != date %}
+	      <h2 class="">{{ currentdate }}</h2>
+	      {% assign date = currentdate %} 
+	    {% endif %}	
+      <li class="mb4-l mb3">
+        <span class="ttu f7 b mr2 tracked grey db-l dn">{{ post.date | date: "%B %e, %Y" }}</span> 
+		<a class="f4" href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% endunless %}
+    {% endfor %}
+  </ul>
+</section>

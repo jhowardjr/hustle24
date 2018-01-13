@@ -1,0 +1,25 @@
+---
+
+---
+@import '_mixins/grid';
+@import 'ss-social';
+@import 'left';
+.main-nav {
+	margin-bottom: 50px;
+}
+
+.sidebar {
+	border: 0;
+	width: 100%;
+	.sidebar-ad {
+		visibility: hidden;
+		@include for-size(desktop-up) {
+			visibility: visible;
+		}
+	}
+	@include for-size(desktop-up) {
+		border-left: 1px solid #000;
+		max-width: 290px;
+		width: 30%;
+	}
+}

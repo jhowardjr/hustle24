@@ -1,0 +1,16 @@
+permalink: pretty
+markdown: kramdown
+name: Hustle24
+url: https://hustle24.io/
+description: Ideas, rants, and ocassionally something useful.
+twitter: 
+
+gems:
+  - jekyll-sitemap
+  - octopress-autoprefixer
+  - octopress-minify-html
+  
+sass:
+    style: compressed
+
+exclude: ['script','Gemfile', 'Gemfile.lock','README.md','LICENSE']
