@@ -1,6 +1,6 @@
 # Hustle24.io 
 
-A blog of Ideas, rants, and ocassionally something useful.
+A blog of Ideas, rants, and occasionally something useful.
 
 ## Getting Started
 
