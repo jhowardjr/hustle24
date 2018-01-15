@@ -14,6 +14,7 @@ What things you need to install the software and how to install them
 * [Ruby](https://www.ruby-lang.org/en/)
 * [Bundler](http://bundler.io/)
 * [Jekyll](https://jekyllrb.com/)
+* [Workbox](https://developers.google.com/web/tools/workbox/)
 
 From the root of the project execute:
 
